@@ -1,0 +1,7 @@
+{
+  "enabledPlugins": {
+    "stack-fastapi@shorthills-claude-plugins": true,
+    "stack-frontend@shorthills-claude-plugins": true,
+    "stack-react@shorthills-claude-plugins": true
+  }
+}

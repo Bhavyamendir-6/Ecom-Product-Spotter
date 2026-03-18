@@ -1,0 +1,90 @@
+{
+  "pages": {
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/error": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/error.js"
+    ],
+    "/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/loading.js"
+    ],
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
+    ],
+    "/(dashboard)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/layout.js"
+    ],
+    "/(dashboard)/analysis/[jobId]/error": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/analysis/[jobId]/error.js"
+    ],
+    "/(dashboard)/analysis/[jobId]/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/analysis/[jobId]/loading.js"
+    ],
+    "/(dashboard)/analysis/[jobId]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/analysis/[jobId]/page.js"
+    ],
+    "/(dashboard)/analysis/[jobId]/trends/error": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/analysis/[jobId]/trends/error.js"
+    ],
+    "/(dashboard)/analysis/[jobId]/trends/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/analysis/[jobId]/trends/loading.js"
+    ],
+    "/(dashboard)/analysis/[jobId]/trends/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/analysis/[jobId]/trends/page.js"
+    ],
+    "/(dashboard)/analysis/[jobId]/scores/error": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/analysis/[jobId]/scores/error.js"
+    ],
+    "/(dashboard)/analysis/[jobId]/scores/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/analysis/[jobId]/scores/loading.js"
+    ],
+    "/(dashboard)/analysis/[jobId]/scores/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/analysis/[jobId]/scores/page.js"
+    ],
+    "/(dashboard)/analysis/[jobId]/report/error": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/analysis/[jobId]/report/error.js"
+    ],
+    "/(dashboard)/analysis/[jobId]/report/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/analysis/[jobId]/report/loading.js"
+    ],
+    "/(dashboard)/analysis/[jobId]/report/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/analysis/[jobId]/report/page.js"
+    ]
+  }
+}

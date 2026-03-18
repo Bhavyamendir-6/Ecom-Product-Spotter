@@ -1,0 +1,15 @@
+[run]
+source = .
+omit =
+    .venv/*
+    tests/*
+
+[report]
+exclude_lines =
+    pragma: no cover
+    except ImportError
+    if __name__ == .__main__.
+    if str\(_root\) not in sys\.path
+    if parent_dir not in sys\.path
+    if agent_root not in sys\.path
+    if mod_name in sys\.modules

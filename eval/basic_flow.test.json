@@ -1,0 +1,50 @@
+{
+  "eval_set_id": "basic_flows",
+  "name": "Basic Agent Functionality",
+  "eval_cases": [
+    {
+      "eval_id": "test_greeting",
+      "conversation": [
+        {
+          "invocation_id": "inv-001",
+          "user_content": {
+            "parts": [{"text": "Hello, what can you help with?"}],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [{"text": "I can help you discover trending product opportunities"}],
+            "role": "model"
+          },
+          "intermediate_data": {"tool_uses": []}
+        }
+      ],
+      "session_input": {
+        "app_name": "ecommerce_product_spotter",
+        "user_id": "test_user",
+        "state": {}
+      }
+    },
+    {
+      "eval_id": "test_keyword_request",
+      "conversation": [
+        {
+          "invocation_id": "inv-002",
+          "user_content": {
+            "parts": [{"text": "Find trending products in fitness equipment"}],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [{"text": "demand report"}],
+            "role": "model"
+          },
+          "intermediate_data": {"tool_uses": []}
+        }
+      ],
+      "session_input": {
+        "app_name": "ecommerce_product_spotter",
+        "user_id": "test_user",
+        "state": {}
+      }
+    }
+  ]
+}

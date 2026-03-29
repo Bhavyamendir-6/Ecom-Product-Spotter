@@ -70,21 +70,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(dashboard)/analysis/[jobId]/scores/page.js"
-    ],
-    "/(dashboard)/analysis/[jobId]/report/error": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(dashboard)/analysis/[jobId]/report/error.js"
-    ],
-    "/(dashboard)/analysis/[jobId]/report/loading": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(dashboard)/analysis/[jobId]/report/loading.js"
-    ],
-    "/(dashboard)/analysis/[jobId]/report/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(dashboard)/analysis/[jobId]/report/page.js"
     ]
   }
 }
